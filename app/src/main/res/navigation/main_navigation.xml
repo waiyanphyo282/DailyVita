@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation"
+    app:startDestination="@id/getStartedFragment">
+
+    <fragment
+        android:id="@+id/getStartedFragment"
+        android:name="com.codigo.dailyvita.ui.getStarted.GetStartedFragment"
+        tools:layout="@layout/fragment_get_started" >
+        <action
+            android:id="@+id/action_getStartedFragment_to_firstStageFragment"
+            app:destination="@id/firstStageFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/firstStageFragment"
+        android:name="com.codigo.dailyvita.ui.firstStage.FirstStageFragment"
+        tools:layout="@layout/fragment_first_stage" >
+        <action
+            android:id="@+id/action_firstStageFragment_to_secondStageFragment"
+            app:destination="@id/secondStageFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/secondStageFragment"
+        android:name="com.codigo.dailyvita.ui.secondStage.SecondStageFragment"
+        tools:layout="@layout/fragment_second_stage" >
+        <action
+            android:id="@+id/action_secondStageFragment_to_thirdStageFragment"
+            app:destination="@id/thirdStageFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/thirdStageFragment"
+        android:name="com.codigo.dailyvita.ui.thirdStage.ThirdStageFragment"
+        tools:layout="@layout/fragment_third_stage" >
+        <action
+            android:id="@+id/action_thirdStageFragment_to_finalStageFragment"
+            app:destination="@id/finalStageFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/finalStageFragment"
+        android:name="com.codigo.dailyvita.ui.finalStage.FinalStageFragment"
+        tools:layout="@layout/fragment_final_stage" />
+</navigation>

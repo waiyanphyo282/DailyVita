@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">DailyVita</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="welcome_title">Welcome to DailyVita</string>
+    <string name="get_started_subtitle">Hello, we are here to make your life healthier and happier</string>
+    <string name="get_started">Get Started</string>
+    <string name="back">Back</string>
+    <string name="next">Next</string>
+    <string name="prioritize">Prioritize</string>
+    <string name="sun_exposure_question">Is your daily exposure to sun is limited? <font fgcolor='#FFFF5E49'>*</font></string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="smoke_question">Do you currently smoke? (tobacco or marijuana)?<font fgcolor='#FFFF5E49'>*</font></string>
+    <string name="alcoholic_question">On average, how many alcoholic beverages do you have in a week?<font fgcolor='#FFFF5E49'>*</font></string>
+    <string name="_0_1">0 - 1</string>
+    <string name="_2_5">2 - 5</string>
+    <string name="_5">5 +</string>
+    <string name="health_concern_title">Select the top health concerns.<font fgcolor='#FFFF5E49'>*</font>\n(upto 5)</string>
+    <string name="diets_title">Select the diets you follow.<font fgcolor='#FFFF5E49'>*</font></string>
+</resources>

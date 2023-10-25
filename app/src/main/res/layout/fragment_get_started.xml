@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="18dp"
+    tools:context=".ui.getStarted.GetStartedFragment">
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_marginTop="56dp"
+        style="@style/TextAppearance.MaterialComponents.Headline4"
+        android:textColor="@color/chip_selected"
+        android:text="@string/welcome_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tv_sub_title"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/tv_title"
+        android:textColor="@color/chip_selected"
+        style="@style/TextAppearance.MaterialComponents.Subtitle1"
+        android:text="@string/get_started_subtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:layout_below="@id/tv_sub_title"
+        android:adjustViewBounds="true"
+        android:layout_marginTop="46dp"
+        android:src="@drawable/process"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="42dp"
+        android:layout_marginEnd="42dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_get_started"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="28dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/get_started"
+        android:layout_width="320dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content" />
+</RelativeLayout>

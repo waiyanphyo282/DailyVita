@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="surface">#D3F3E6</color>
+    <color name="secondary">#FF5E49</color>
+    <color name="chip_selected">#2E435D</color>
+    <color name="list_bg">#F4F4F4</color>
+    <color name="border">#cdcdcd</color>
+    <color name="progress_color">#2F435D</color>
+</resources>

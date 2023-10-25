@@ -1,0 +1,30 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.DailyVita" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="android:colorBackground">@color/surface</item>
+        <item name="materialButtonStyle">@style/Widget.DailyVita.Button</item>
+        <item name="colorAccent"> @color/chip_selected</item>
+        <item name="android:statusBarColor">@color/chip_selected</item>
+    </style>
+
+    <style name="ChipStyle" parent="@style/Widget.MaterialComponents.Chip.Choice">
+        <item name="android:checkable">true</item>
+        <item name="checkedIconVisible">false</item>
+        <item name="chipBackgroundColor">@color/chip_bg_state</item>
+        <item name="android:textColor">@color/chip_text_color</item>
+        <item name="chipStrokeColor">@color/chip_selected</item>
+        <item name="chipStrokeWidth">1dp</item>
+    </style>
+
+    <style name="Widget.DailyVita.Button" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@color/secondary</item>
+    </style>
+
+    <style name="Widget.DailyVita.TextButton" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="android:textColor">@color/secondary</item>
+    </style>
+
+    <style name="Theme.DailyVita" parent="Base.Theme.DailyVita" />
+</resources>
